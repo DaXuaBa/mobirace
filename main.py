@@ -10,6 +10,6 @@ app.include_router(home.router)
 
 @app.get("/")
 def read_root():
-    return {"message": "welcome to FastAPI!"}
+    return {"message": "luong oi cuu back"}
 
 #models.Base.metadata.create_all(bind=engine)
